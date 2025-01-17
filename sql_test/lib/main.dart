@@ -157,8 +157,8 @@ class _UserListState extends State<UserList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('GFG User List'),
-        backgroundColor: Colors.lightGreen,
+        title: Text('Show User List'),
+        backgroundColor: const Color.fromARGB(255, 6, 207, 252),
         actions: [
           IconButton(
             icon: Icon(Icons.delete_forever),
@@ -199,7 +199,7 @@ class _UserListState extends State<UserList> {
       floatingActionButton: FloatingActionButton(
         onPressed: _addUser,
         child: Icon(Icons.add),
-        backgroundColor: Colors.green,
+        backgroundColor: const Color.fromARGB(255, 7, 174, 221),
       ),
     );
   }
